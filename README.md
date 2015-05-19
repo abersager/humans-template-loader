@@ -1,16 +1,16 @@
-underscore-template-loader
+humans-template-loader
 ==========================
 
-A Underscore template loader for Webpack
+Webpack loader for [humans and machines](http://humans.am/) flavored underscore templates.
 
-<br/>
-###Usage
+### Delimiters
 
-<br/>
-**Installation**
-```bash
-$ npm install underscore-template-loader
-```
+ - evaluate: `{{# … }}`
+ - escaped output: `{{ … }}`
+ - unescaped output: `{{= … }}`
+
+### Usage
+
 
 <br/>
 **Add loader**
