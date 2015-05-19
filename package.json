@@ -1,11 +1,11 @@
 {
-	"name": "underscore-template-loader",
+	"name": "humans-template-loader",
 	"version": "0.2.5",
-	"description": "A Underscore template loader for Webpack",
+	"description": "Webpack loader for humans and machines flavored underscore templates.",
 	"main": "index.js",
-	"homepage": "https://github.com/emaphp/underscore-template-loader",
+	"homepage": "https://github.com/abersager/humans-template-loader",
 	"bugs": {
-		"url": "https://github.com/emaphp/underscore-template-loader/issues"
+		"url": "https://github.com/abersager/humans-template-loader/issues"
 	},
 	"author": {
 		"name": "Emmanuel Antico",
@@ -13,12 +13,10 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/emaphp/underscore-template-loader.git"
+		"url": "https://github.com/abersager/humans-template-loader.git"
 	},
 	"dependencies": {
-		"loader-utils": "^0.2.5"
-	},
-	"peerDependencies": {
+		"loader-utils": "^0.2.5",
 		"underscore": ">=1.5.0"
 	},
 	"keywords": [
@@ -27,5 +25,8 @@
 		"webpack",
 		"loader"
 	],
-	"readmeFilename": "README.md"
+	"readmeFilename": "README.md",
+	"contributors": [
+		"Oliver Spindler <os@oliverspindler.com>"
+	]
 }
